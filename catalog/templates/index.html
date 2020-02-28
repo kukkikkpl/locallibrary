@@ -13,4 +13,6 @@
     <li><strong>Fantasy genres:</strong> {{ num_genres_fantasy }}</li>
     <li><strong>Books named 'Hunger':</strong> {{ num_books_hunger }}</li>
 </ul>
+
+<p>You have visited this page {{ num_visits }}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
 {% endblock %}
